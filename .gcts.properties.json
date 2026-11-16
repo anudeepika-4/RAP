@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "ZANU",
   "repositoryLayout": {
+    "fingerprintSeckey": "/BYOG/FPRINT_RT/E2C3DD003D8C1FD1B8B1E23CADCF2CEE_0",
     "format": "json",
-    "formatVersion": "6",
+    "formatVersion": "11",
+    "keepClient": "false",
     "metaInformation": ".gctsmetadata/",
-    "tableContent": "true",
-    "keepClient": "false"
+    "tableContent": "true"
   }
 }
