@@ -1,0 +1,12 @@
+{
+  "name": "zanu",
+  "version": "1.0.0",
+  "description": "ZANU",
+  "repositoryLayout": {
+    "format": "json",
+    "formatVersion": "6",
+    "metaInformation": ".gctsmetadata/",
+    "tableContent": "true",
+    "keepClient": "false"
+  }
+}
