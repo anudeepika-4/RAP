@@ -1,8 +1,6 @@
   METHOD if_oo_adt_classrun~main.
-    DATA lv_from TYPE d.
-
     DATA(lv_today) = cl_abap_context_info=>get_system_date( ).
-    lv_from = lv_today - 30.
+    DATA(lv_from)  = CONV d( lv_today - 30 ).
 
     IF is_valid_sales_org( c_sales_org ) = abap_false.
       out->write( 'Sales Organization is required' ).

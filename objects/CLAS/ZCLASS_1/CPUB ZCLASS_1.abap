@@ -1,7 +1,7 @@
 CLASS zclass_1 DEFINITION
   PUBLIC
   FINAL
-  CREATE PUBLIC..
+  CREATE PUBLIC.
 
   PUBLIC SECTION.
     INTERFACES if_oo_adt_classrun.
@@ -18,13 +18,13 @@ CLASS zclass_1 DEFINITION
              matnr   TYPE c LENGTH 40,
              maktx   TYPE c LENGTH 40,
              kwmeng  TYPE p LENGTH 13 DECIMALS 3,
-             netwr   TYPE p LENGTH 15 DECIMALS 2,   " header value shown per item row
+             netwr   TYPE p LENGTH 15 DECIMALS 2,
              waerk   TYPE c LENGTH 5,
-             faksp   TYPE c LENGTH 2,               " billing block at item
-             gbstk_h TYPE c LENGTH 1,               " header overall status
-             lfstk_h TYPE c LENGTH 1,               " header delivery status
-             fkstk_h TYPE c LENGTH 1,               " header billing status
-             iconrec TYPE ty_icon,                  " recent indicator
+             faksp   TYPE c LENGTH 2,
+             gbstk_h TYPE c LENGTH 1,
+             lfstk_h TYPE c LENGTH 1,
+             fkstk_h TYPE c LENGTH 1,
+             iconrec TYPE ty_icon,
            END OF ty_row.
 
     TYPES tt_rows TYPE STANDARD TABLE OF ty_row WITH EMPTY KEY.
