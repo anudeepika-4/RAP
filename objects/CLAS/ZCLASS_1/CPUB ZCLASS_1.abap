@@ -6,7 +6,7 @@ CLASS zclass_1 DEFINITION
   PUBLIC SECTION.
     INTERFACES if_oo_adt_classrun.
 
-    TYPES ty_icon TYPE c LENGTH 4.
+    TYPES ty_icon TYPE c LENGTH 45.
 
     TYPES: BEGIN OF ty_row,
              vbeln   TYPE c LENGTH 10,

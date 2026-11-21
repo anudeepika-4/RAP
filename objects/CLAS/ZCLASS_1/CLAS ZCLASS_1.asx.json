@@ -1269,7 +1269,7 @@
     "SRCROW1":9,
     "SRCCOLUMN1":10,
     "SRCROW2":9,
-    "SRCCOLUMN2":32,
+    "SRCCOLUMN2":33,
     "REFCLSNAME":"",
     "REFINTNAME":"",
     "REFCMPNAME":"",
@@ -1279,8 +1279,8 @@
     "BCMTDCOM":"",
     "BCMTDSYN":0,
     "BCEVTCAT":0,
-    "TYPESRC_LENG":25,
-    "TYPESRC":"ty_icon TYPE c LENGTH 4\r\n"
+    "TYPESRC_LENG":26,
+    "TYPESRC":"ty_icon TYPE c LENGTH 45\r\n"
    },
    {
     "CLSNAME":"ZCLASS_1",
