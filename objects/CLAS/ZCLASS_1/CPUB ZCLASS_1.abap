@@ -9,7 +9,7 @@ CLASS zclass_1 DEFINITION
     TYPES ty_icon TYPE c LENGTH 45.
 
     TYPES: BEGIN OF ty_row,
-             vbeln   TYPE c LENGTH 10,
+             vbeln   TYPE c LENGTH 105,
              posnr   TYPE n LENGTH 6,
              vkorg   TYPE c LENGTH 4,
              erdat   TYPE d,
